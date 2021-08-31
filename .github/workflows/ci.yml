@@ -29,5 +29,5 @@ jobs:
       with:
         ruby-version: 2.7
         bundler-cache: true
-    - run: sleep 3 && mysql --comments --host 127.0.0.1 --port 4000 -u root --password='' -e 'show databases;'
-    - run: sleep 3 && mysql --comments --host 127.0.0.1 --port 4000 -u root --password='' -e 'create database t;'
+    - run: sleep 13 && mysql --comments --host 127.0.0.1 --port 4000 -u root --password='' -e 'show databases;'
+    - run: sleep 13 && mysql --comments --host 127.0.0.1 --port 4000 -u root --password='' -e 'create database t;'
